@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>A Study In Collaboration</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+    <!-- jQuery Library -->
+    <script src="scripts/jquery.js"></script>
+    <!-- jQuery UI Library -->
+    <script src="scripts/jquery-ui.js"></script>
+    <!-- JS Libraries -->
+    <script src="scripts/plugins.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+
+    <!-- Custom JS Script -->
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <div class="master-container">
+
+        <div class="container-1">
+            <div class="instructions">
+                <h1>A Study In Collaboration</h1>
+                <p>Please answer honestly.</p>
+            </div>
+
+            <div class="form">
+                <h3 id="name">First Name:</h3>
+                <div class="write-name" id="nameInput-1" contenteditable="true"></div>
+
+                <h3 id="city">City:</h3>
+                <div class="write-city" id="cityInput-1" contenteditable="true"></div>
+            </div>
+        </div>
+
+        <div class="questions">
+
+            <div class="q-container">
+                <h3 id="question-text">1. Do you prefer to work in groups or alone?</h3>
+                <div data-answer="x" id="question-1" class="question">
+                    <div data-answer-value="a" class="answer">A. alone</div>
+                    <div data-answer-value="b" class="answer">B. group</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 class="question-text">2. Do you consider yourself an introvert or an extrovert?</h3>
+                <div data-answer="x" id="question-2" class="question">
+                    <div data-answer-value="a" class="answer">A. introvert</div>
+                    <div data-answer-value="b" class="answer">B. extrovert</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">3. Do you prefer to work on group projects as a whole or delegated portions?</h3>
+                <div data-answer="x" id="question-3" class="question">
+                    <div data-answer-value="a" class="answer">A. whole</div>
+                    <div data-answer-value="b" class="answer">B. delegated</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">4. Do you feel comfortable leading a group?</h3>
+                <div data-answer="x" id="question-4" class="question">
+                    <div data-answer-value="a" class="answer">A. yes</div>
+                    <div data-answer-value="b" class="answer">B. no</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">5. Preferred work environment?</h3>
+                <div data-answer="x" id="question-5" class="question">
+                    <div data-answer-value="a" class="answer">A. alone at home</div>
+                    <div data-answer-value="b" class="answer">B. crowded coffee shop</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">6. What word describes you best?</h3>
+                <div data-answer="x" id="question-6" class="question">
+                    <div data-answer-value="a" class="answer">A. outgoing</div>
+                    <div data-answer-value="b" class="answer">B. solitary</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">7. How do you prefer to communicate with your team?</h3>
+                <div data-answer="x" id="question-7" class="question">
+                    <div data-answer-value="a" class="answer">A. call</div>
+                    <div data-answer-value="b" class="answer">B. text</div>
+                </div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">8. How was your last collaborative experience?</h3>
+                <div data-answer="x" id="question-8" class="question">
+                    <div data-answer-value="a" class="answer">A. great</div>
+                    <div data-answer-value="b" class="answer">B. not so great</div>
+                </div>
+            </div>
+
+            <a href="./archive.html">
+            <div id='submit-btn'>SUBMIT</div>
+            </a>
+
+<!--            <div id="results"></div>-->
+
+        </div>
+
+        <!--
+    <div data-answer="x" id="question-2" class="question">
+        <div data-answer-value="a" class="answer">A</div>
+        <div data-answer-value="b" class="answer">B</div>
+    </div>
+
+-->
+
+
+    </div>
+
+</body>
+
+</html>
