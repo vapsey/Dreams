@@ -223,9 +223,9 @@ h3 {
     font-family: "sans";
     background-color: white;
     border: 2px solid black;
-    height: 50vh;
-    width: 80vw;
-    max-width: 900px;
+    height: 30px;
+    width: 40%;
+    max-width: 400px;
     overflow: hidden;
     white-space: nowrap;
     padding: 5px;
