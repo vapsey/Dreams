@@ -1120,3 +1120,35 @@ h3 {
 
 
 /*----------END-COMP-Three--------------*/
+
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.flex-item {
+    background-color: blue;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    display:inline-block;
+
+
+}
