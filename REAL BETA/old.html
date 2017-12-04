@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>COLLAB</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+    <!-- jQuery Library -->
+    <script src="scripts/jquery.js"></script>
+    <!-- jQuery UI Library -->
+    <script src="scripts/jquery-ui.js"></script>
+    <!-- JS Libraries -->
+    <script src="scripts/plugins.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+    
+    <!-- Custom JS Script -->
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <div class="master-container">
+
+        <div class="container-1">
+            <div class="instructions">
+                <h1>A Study In Collaboration</h1>
+                <p>Please answer honestly.</p>
+            </div>
+
+            <div class="form">
+                <h3 id="name">First Name:</h3>
+                <div class="write-name" id="nameInput-1" contenteditable="true"></div>
+                
+                <h3 id="city">City:</h3>
+                <div class="write-city" id="cityInput-1" contenteditable="true"></div>
+            </div>
+        </div>
+
+
+        <div class="questions">
+            <div class="q-container">
+                <h3 id="question-text">Do you prefer to work in groups or alone?</h3>
+                <input type="checkbox" class="box-1" />
+                <div class="option">A. alone</div>
+                <br>
+                <input type="checkbox" class="box-1" />
+                <div class="option">B. group</div>
+            </div>
+
+            <div class="q-container">
+                <h3 class="question-text">Do you consider yourself an introvert or an extrovert?</h3>
+                <input type="checkbox" class="box-2" />
+                <div class="option">A. introvert</div>
+                <br>
+                <input type="checkbox" class="box-2" />
+                <div class="option">B. extrovert</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">Do you prefer to work on group projects as a whole or delegated portions?</h3>
+                <input type="checkbox" class="box-3" />
+                <div class="option">A. whole</div>
+                <br>
+                <input type="checkbox" class="box-3" />
+                <div class="option">B. delegated</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">Do you feel comfortable leading a group?</h3>
+                <input type="checkbox" class="box-4" />
+                <div class="option">A. yes</div>
+                <br>
+                <input type="checkbox" class="box-4" />
+                <div class="option">B. no</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">Preferred work environment?</h3>
+                <input type="checkbox" class="box-5" />
+                <div class="option">A. alone at home</div>
+                <br>
+                <input type="checkbox" class="box-5" />
+                <div class="option">B. crowded coffee shop</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">What word describes you best?</h3>
+                <input type="checkbox" class="box-6" />
+                <div class="option">A. outgoing</div>
+                <br>
+                <input type="checkbox" class="box-6" />
+                <div class="option">B. solitary</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">How do you prefer to communicate with your team?</h3>
+                <input type="checkbox" class="box-7" />
+                <div class="option">A. call</div>
+                <br>
+                <input type="checkbox" class="box-7" />
+                <div class="option">B. text</div>
+            </div>
+
+            <div class="q-container">
+                <h3 id="question-text">How was your last collaborative experience?</h3>
+                <input type="checkbox" class="box-8" />
+                <div class="option">A. great</div>
+                <br>
+                <input type="checkbox" class="box-8" />
+                <div class="option">B. not so great</div>
+            </div>
+
+            
+<!--            <div id='submit-btn'>SUBMIT</div>-->
+            
+            
+            <a href="./colab.html"> 
+            <div id='submit-btn'>SUBMIT</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="footer"></div>
+
+
+
+    </div>
+</body>
+
+</html>
