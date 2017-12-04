@@ -1,0 +1,39 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ 	margin: 0;
+}
+
+/* Clear Float */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+/*------------------------------------------*/
+
+
+.container{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  background-color: lightpink;
+
+
+}
