@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title>Dream Analysis</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+    <!-- jQuery Library -->
+    <script src="scripts/jquery.js"></script>
+    <!-- jQuery UI Library -->
+    <script src="scripts/jquery-ui.js"></script>
+    <!-- JS Libraries -->
+    <script src="scripts/plugins.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+
+    <!-- Custom JS Script -->
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <div class="master-container">
+      <div class="container-1">
+
+
+        <div class="instructions">
+            <h1>Dream Analysis</h1>
+        </div>
+
+
+<!--name prompt----------------------------------->
+            <div class="q-container">
+                <h3 id="name">Name:</h3>
+                <div class="write-name" id="nameInput-1" contenteditable="true"></div>
+            </div>
+<!------------------------------------------------>
+
+
+
+
+
+<!--date prompt----------------------------------->
+
+            <div class="q-container">
+                <h3 id="date">Day of the week:</h3>
+                <div data-answer="x" id="question-3" class="question">
+                  <div data-answer-value="a" class="answer">[Monday]</div>
+                  <div data-answer-value="e" class="answer">[Tuesday]</div>
+                  <div data-answer-value="d" class="answer">[Wednesday]</div>
+                  <div data-answer-value="e" class="answer">[Thursday]</div>
+                  <div data-answer-value="c" class="answer">[Friday]</div>
+                    <div data-answer-value="b" class="answer">[Saturday]</div>
+                    <div data-answer-value="e" class="answer">[Sunday]</div>
+
+                </div>                </div>
+            </div>
+<!------------------------------------------------>
+
+
+
+<!--country prompt-------------------------------->
+            <div class="q-container">
+                <h3 id="country">Which hemisphere quadrant on Earth do you live in?</h3>
+                  <div data-answer="x" id="question-3" class="question">
+                    <div data-answer-value="a" class="answer">[Northwest]</div>
+                    <div data-answer-value="e" class="answer">[Northeast]</div>
+                    <div data-answer-value="d" class="answer">[Southwest]</div>
+                    <div data-answer-value="e" class="answer">[Southeast]</div>
+
+
+                  </div>
+
+            </div>
+<!------------------------------------------------>
+
+
+
+<!--woke up in bed prompt------------------------->
+            <div class="q-container">
+                <h3 id="question-text">Location upon awakening:</h3>
+                <div data-answer="x" id="question-1" class="question">
+                    <div data-answer-value="a" class="answer">[home]</div>
+                    <div data-answer-value="b" class="answer">[other]</div>
+                </div>
+            </div>
+<!------------------------------------------------>
+
+
+
+<!--hours prompt NOTE: [data-answer-value="a"] = [clear] ; [data-answer-value="b"] = [blurry] -------------------------->
+            <div class="q-container">
+                <h3 id="question-text">Hours of sleep:</h3>
+                <div data-answer="x" id="question-2" class="question">
+                    <div data-answer-value="a" class="answer">[1]</div>
+                    <div data-answer-value="b" class="answer">[2]</div>
+                    <div data-answer-value="a" class="answer">[3]</div>
+                    <div data-answer-value="b" class="answer">[4]</div>
+                    <div data-answer-value="a" class="answer">[5]</div>
+                    <div data-answer-value="b" class="answer">[6]</div>
+                    <div data-answer-value="a" class="answer">[7]</div>
+                    <div data-answer-value="a" class="answer">[8]</div>
+                    <div data-answer-value="b" class="answer">[9+]</div>
+
+                </div>
+            </div>
+<!------------------------------------------------>
+
+
+
+<!--orientation prompt---------------------------->
+            <div class="q-container">
+                <h3 id="question-text">Sleeping position:</h3>
+                <div data-answer="x" id="question-3" class="question">
+                    <div data-answer-value="a" class="answer">[left]</div>
+                    <div data-answer-value="b" class="answer">[right]</div>
+                    <div data-answer-value="c" class="answer">[back]</div>
+                    <div data-answer-value="d" class="answer">[stomach]</div>
+                    <div data-answer-value="e" class="answer">[multiple]</div>
+                </div>
+            </div>
+<!------------------------------------------------>
+
+
+
+
+<!--food prompt----------------------------------->
+            <div class="q-container">
+                <h3 id="question-text">Last meal:</h3>
+                <div data-answer="x" id="question-6" class="question">
+                  <div data-answer-value="a" class="answer">[carbs]</div>
+                  <div data-answer-value="b" class="answer">[dairy]</div>
+                  <div data-answer-value="c" class="answer">[spicy]</div>
+                  <div data-answer-value="d" class="answer">[fried]</div>
+                  <div data-answer-value="e" class="answer">[sweets]</div>
+                  <div data-answer-value="f" class="answer">[caffiene]</div>
+                  <div data-answer-value="g" class="answer">[n/a]</div>
+
+
+                </div>
+
+                </div>
+
+                    <div class="instructions">
+                        <h1>Describe your dream last night:</h1>
+                    </div>
+
+
+
+
+
+                    <div class="q-container">
+                        <h3 id="description"></h3>
+                        <div class="description" id="descriptionInput-1" contenteditable="true"></div>
+                    </div>
+<!------------------------------------------------>
+
+
+
+
+
+            <a href="./newarchive.html">
+            <div id='submit-btn'>SUBMIT</div>
+            </a>
+
+<!--            <div id="results"></div>-->
+
+        </div>
+
+        <!--
+    <div data-answer="x" id="question-2" class="question">
+        <div data-answer-value="a" class="answer">A</div>
+        <div data-answer-value="b" class="answer">B</div>
+    </div>
+
+-->
+
+
+    </div>
+
+</body>
+
+</html>

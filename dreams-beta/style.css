@@ -1,0 +1,1173 @@
+/* DON'T DELETE THIS */
+
+
+@font-face {
+    font-family: "sans";
+    src:url("assets/fonts/ZXX_NOISE.otf");
+}
+
+@font-face {
+    font-family: "noise";
+    src:url("assets/fonts/ZXX_BOLD.otf");
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "noise";
+    background-color: white;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/*------------------------------------------*/
+
+
+
+
+/*---date input------------------------------*/
+
+::-webkit-datetime-edit { font-family: "sans"; }
+::-webkit-datetime-edit-fields-wrapper { background: pink; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: orange; }
+
+
+
+
+.nameResult {}
+
+.countryResult {}
+
+a {
+    text-decoration: none;
+}
+
+.answer{
+  font-family: "noise";
+  color: teal;
+  margin-bottom: 10px;
+}
+
+::after{
+  color: red;
+}
+
+.answer:hover{
+    color: blue;
+}
+
+
+
+#question-1 {}
+
+#question-1 .answer {
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-2 {
+
+}
+
+#question-2 .answer {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-3 {}
+
+#question-3 .answer {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-4 {}
+
+#question-4 .answer {
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-5 {}
+
+#question-5 .answer {
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-6 {}
+
+#question-6 .answer {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-7 {}
+
+#question-7 .answer {
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: left;
+}
+
+#question-8 {}
+
+#question-8 .answer {
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: left;
+}
+
+.active {
+    background: black;
+    color: black;
+}
+
+
+/*----Home-Page----*/
+
+.master-container {
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    color: black;
+    font-family: "noise";
+    margin: 0 auto;
+}
+
+.container-1 {
+}
+
+.instructions {
+    height: auto;
+    margin-top: 5%;
+    padding-left: 0px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.form {
+    color: white;
+    padding-left: 20px;
+    margin-top: 8%;
+}
+
+.questions {
+    color: black;
+    margin-top: 10%;
+    padding-left: 20px;
+}
+
+.question {
+    width: 600px;
+    height: 40px;
+    cursor: pointer;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+    padding: 5px;
+    background-color: white;
+}
+
+.description{
+  color: black;
+  font-family: "sans";
+  background-color: white;
+  border: 2px solid black;
+  height: 50vh;
+  width: 80vw;
+  max-width: 900px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.write-name {
+    color: black;
+    font-family: "sans";
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.input-date{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  height: 30px;
+  width: 40%;
+  max-width: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+}
+}
+
+.write-age {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.write-race {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.write-race:hover {
+    background-color: black;
+}
+
+.write-country {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.q-container {
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+}
+
+.option {
+    display: inline;
+}
+
+#submit-btn {
+    height: 32px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 2px;
+    color: black;
+    font-size: 1em;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    border: 2px solid black;
+}
+
+#submit-btn:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+#storage {
+    border: 1px solid rebeccapurple;
+    background: yellow;
+}
+
+.footer {
+    height: 8%;
+    width: 100%;
+}
+
+.example {}
+
+.answer {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*----------------------------Page-2----------------------------*/
+
+.master-container-2 {
+    height: auto;
+    width: 100%;
+    color: black;
+    font-family: "noise";
+}
+
+.key-container {
+    position: fixed;
+    float: right;
+    top: 4%;
+    right: 10;
+    height: auto;
+    width: 40%;
+}
+
+.question-key-1 {
+    height: 100%;
+    width: 600px;
+    padding: 17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: .9em;
+    color: black;
+}
+
+.qkey-ans-line-1 {
+    margin-left: 18px;
+}
+
+.question-key-2 {
+    height: 100%;
+    width: 600px;
+    padding: 17px;
+    padding-top: 10px;
+    font-size: .9em;
+    color: black;
+    margin-top: 100px;
+}
+
+.qkey-line-1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.qkey-line-2- {
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+
+/*.key-tab {
+    margin-left: .em;
+}*/
+
+.answer-key-1 {
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+    padding-left: 59px;
+    margin-top: 0px;
+    color: black;
+    float: left;
+}
+
+.answer-key-2 {
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+    padding-left: 25px;
+    margin-top: -8px;
+    color: white;
+    float: left;
+}
+
+.answer-tab {
+    margin-left: 1em;
+    height: auto;
+}
+
+.key-A-1 {
+    width: 195px;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-top: 16px;
+    margin-top: 10px;
+    color: black;
+    float: left;
+}
+
+.key-A-2 {
+    width: 175px;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-top: 16px;
+    padding-right: 0px;
+    margin-top: 10px;
+    color: black;
+    float: left;
+}
+
+.A-equals {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.key-yellow {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    margin-top: -6px;
+    margin-left: 20px;
+    float: left;
+}
+
+.key-B-1 {
+    width: 295px;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-top: 16px;
+    margin-top: 10px;
+    color: black;
+    float: left;
+
+}
+
+.key-B-2 {
+    width: 295px;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-top: 16px;
+    margin-top: 10px;
+    color: black;
+    float: left;
+
+}
+
+.B-equals {
+    float: left;
+    left: 0px;
+}
+
+.key-purple {
+    background-color: rebeccapurple;
+    height: 50px;
+    width: 50px;
+    margin-top: -6px;
+    margin-left: 20px;
+    float: left;
+}
+
+.key-horiz {
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.key-vert {
+    background-color: black;
+    height: 100%;
+    width: 4px;
+    margin-left: 23px;
+}
+
+#key-o {
+    background-color: black;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#key-2 {
+    margin-top: 4%;
+}
+
+.color-result-1 {
+    width: 149px;
+    height: 149px;
+    background-color: yellow;
+    border: solid black 4px;
+    float: left;
+    margin-top: -50px;
+}
+
+.color-result-2 {
+    width: 149px;
+    height: 149px;
+    background-color: rebeccapurple;
+    border: solid black 4px;
+    float: left;
+    margin-top: -50px;
+}
+
+.form-horiz {
+    width: 149px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    top: 65px;
+}
+
+.form-vert {
+    width: 8px;
+    height: 149px;
+    background-color: black;
+    position: absolute;
+    left: 68px;
+}
+
+.form-result-1 {
+    width: 149px;
+    height: 149px;
+    border: solid black 4px;
+    position: absolute;
+    margin-top: -50px;
+
+
+}
+
+.form-result-2 {
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.form-result-3 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 150px;
+    top: 4px;
+    margin-top: -50px;
+}
+
+.form-result-4 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 150px;
+    top: 4px;
+    margin-top: -50px;
+}
+
+.form-result-5 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 300px;
+    bottom: 145px;
+    margin-top: 0px;
+
+}
+
+.form-result-6 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 300px;
+    bottom: 145px;
+    margin-top: 0px;
+}
+
+.form-result-7 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 450px;
+    bottom: 294px;
+    margin-top: 0px;
+}
+
+.form-result-8 {
+    width: 149px;
+    height: 149px;
+    position: relative;
+    left: 450px;
+    bottom: 294px;
+    margin-top: 0px;
+}
+
+#results {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    color: black;
+    font-family: noto sans;
+    position: fixed;
+    float: left;
+    top: 4%;
+    left: 5%;
+
+}
+
+.d {
+    position: relative;
+    left: 600px;
+    top: 44px;
+
+}
+
+.e {
+    position: relative;
+    left: 600px;
+    top: 44px;
+}
+
+.person-block{
+    height: 149px;
+    position: relative;
+
+
+}
+
+
+/*---------------Compositions-----------------*/
+
+
+/*--container-for-all-compositions--*/
+
+#comp-container {
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 100%;
+    width: 600;
+}
+
+
+/*---------Composition-One---------*/
+
+
+/*--container--*/
+
+#comp-1 {
+    height: 147px;
+    width: 294;
+    float: left;
+}
+
+
+/*--------Person-1--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c1-p1-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c1-p1-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c1-p1-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c1-p1-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-right: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--------Person-2--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c1-p2-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c1-p2-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c1-p2-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c1-p2-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    border-right: solid black 4px;
+    float: left;
+}
+
+
+/*----------END-COMP-ONE--------------*/
+
+
+/*---------Composition-TWO---------*/
+
+
+/*--container--*/
+
+#comp-2 {
+    height: 147px;
+    width: 294;
+    float: right;
+}
+
+
+/*--------Person-1--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c2-p1-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c2-p1-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c2-p1-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c2-p1-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-right: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--------Person-2--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c2-p2-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c2-p2-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c2-p2-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c2-p2-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    border-right: solid black 4px;
+    float: left;
+}
+
+
+/*----------END-COMP-TWO--------------*/
+
+
+/*---------Composition-Three---------*/
+
+
+/*--container--*/
+
+#comp-3 {
+    height: 147px;
+    width: 294;
+    float: left;
+    margin-top: 12px;
+}
+
+
+/*--------Person-1--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c3-p1-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c3-p1-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c3-p1-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c3-p1-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-right: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--------Person-2--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c3-p2-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c3-p2-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c3-p2-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c3-p2-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    border-right: solid black 4px;
+    float: left;
+}
+
+
+/*----------END-COMP-Three--------------*/
+
+
+/*---------Composition-Four---------*/
+
+
+/*--container--*/
+
+#comp-4 {
+    height: 147px;
+    width: 294;
+    float: right;
+    margin-top: 12px;
+}
+
+
+/*--------Person-1--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c4-p1-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c4-p1-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c4-p1-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c4-p1-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-right: solid black 4px;
+    border-top: solid black 4px;
+    float: left;
+}
+
+
+/*--------Person-2--------*/
+
+
+/*--answers-1-and-5--*/
+
+#c4-p2-a-1-5 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-left: solid black 4px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-2-and-6--*/
+
+#c4-p2-a-2-6 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-3-and-7--*/
+
+#c4-p2-a-3-7 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    float: left;
+}
+
+
+/*--answers-4-and-8--*/
+
+#c4-p2-a-4-8 {
+    width: 25%;
+    height: 50%;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    border-right: solid black 4px;
+    float: left;
+}
+
+
+/*----------END-COMP-Three--------------*/
+
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.flex-item {
+    background-color: blue;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    display:inline-block;
+
+
+}

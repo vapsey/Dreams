@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>A Study In Collaboration</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+    <!-- jQuery Library -->
+    <script src="scripts/jquery.js"></script>
+    <!-- jQuery UI Library -->
+    <script src="scripts/jquery-ui.js"></script>
+    <!-- JS Libraries -->
+    <script src="scripts/plugins.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+
+    <!-- Custom JS Script -->
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <div class="key-container">
+        <div class="question-key-1">
+            <p class="qkey-line-1">1. Do you prefer to work in groups or alone? </p>
+            <p class="qkey-ans-line-1">A. alone<span class="answer-tab"></span>B. group</p>
+            <p class="qkey-line-2-8">2. Do you consider yourself an introvert or an extrovert? </p>
+            <p class="qkey-ans-line-1">A. introvert<span class="answer-tab"></span>B. extrovert</p>
+            <p class="qkey-line-2-8">3. Do you prefer to work on group projects as a whole ordelegated portions?</p>
+            <p class="qkey-ans-line-1">A. whole<span class="answer-tab"></span>B. delegated</p>
+            <p class="qkey-line-2-8">4. Do you feel comfortable leading a group?</p>
+            <p class="qkey-ans-line-1">A. yes<span class="answer-tab"></span>B. no</p>
+        </div>
+        <div class="answer-key-1">
+               <div class="key-A-2">
+                <div class="A-equals">A =<span class="key-tab"></span></div>
+                <div class="key-yellow"></div>
+            </div>
+            <div class="key-A-2">
+                <div class="A-equals">B =<span class="key-tab"></span></div>
+                <div class="key-purple"></div>
+            </div>
+        </div>
+        <div class="question-key-2">
+            <p class="qkey-line-2-8">5. Preferred work environment?</p>
+            <p class="qkey-ans-line-1">A. alone at home<span class="answer-tab"></span>B. crowded coffee shop</p>
+            <p class="qkey-line-2-8">6. What word describes you best?</p>
+            <p class="qkey-ans-line-1">A. outgoing<span class="answer-tab"></span>B. solitary</p>
+            <p class="qkey-line-2-8">7. How do you prefer to communicate with your team?</p>
+            <p class="qkey-ans-line-1">A. call<span class="answer-tab"></span>B. text</p>
+            <p class="qkey-line-2-8">8. How was your last collaborative experience?</p>
+            <p class="qkey-ans-line-1">A. great<span class="answer-tab"></span>B. not so great</p>
+        </div>
+
+        <div class="answer-key-2">
+            <div class="key-A-2">
+
+                <div class="A-equals">A/A =</div>
+                    <div class="key-yellow">
+                        <div class="key-horiz"></div>
+                    </div>
+                <div class="A-equals">B/B =</div>
+                    <div class="key-purple">
+                        <div class="key-vert"></div>
+                    </div>
+            </div>
+            <div class="key-A-2">
+
+                <div class="A-equals">A/B =</div>
+                    <div class="key-yellow">
+                        <div class="key-vert"></div>
+                    </div>
+                <div class="A-equals">B/A =</div>
+                    <div class="key-purple">
+                        <div class="key-horiz"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="results" class="cf">
+    </div>
+
+
+</body>
+
+</html>
